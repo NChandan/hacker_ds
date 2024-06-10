@@ -49,7 +49,7 @@ class Node:
 '''
 
 
-def height(root, curr=0):
+def height(root, curr=-1):
     if root is None:
         return curr
     curr += 1
